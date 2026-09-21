@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #b30000;
+    --secondary-color: #639a67;
+    --text-color: #333333;
+    --bg-color: #f0f4f1;
+}
+
+body {
+    color: var(--text-color);
+    min-height: 100vh;
+    width: 100vw;
+
+    background-color: var(--bg-color);
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 0.8em;
+}
+
+#main-header {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.profile-card {
+    --card-bg: #ffffff;
+
+    width: 85%;
+    max-width: 550px;
+    margin: 30px auto;
+    background-color: var(--card-bg);
+}
+
+.img-box {
+    text-align: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+}
+
+.skills-list > li {
+    list-style: none;
+    background-color: #e8f0e6;
+    margin-bottom: 8px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.job-title {
+    color: var(--secondary-color);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my-name {
+    color: #b30000 !important;
+}
+
+.scroll-box {
+    height: 70px;
+    overflow: auto;
+    background: #fafafa;
+    margin-top: 10px;
+}
+
+.buttons-group {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.contact-button {
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #800000;
+}
+
+.btn-disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.about-section h3 {
+    cursor: help;
+}
+
+.main-footer {
+    text-align: center;
+    background-color: #e0e0e0;
+}
