@@ -1,4 +1,4 @@
-
+/* 
 * {
     margin: 0;
     box-sizing: border-box;
@@ -114,4 +114,30 @@ p {
 .main-footer {
     text-align: center;
     background-color: #e0e0e0;
+} */
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 128, 128, 0.2);
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 7px;
+    border: 2px solid teal;
+    padding: 10px; 
+}
+
+p {
+    color: #ff69b4;
+    text-shadow: 2px 2px 5px gray;
+    text-align: center;
+    direction: ltr;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-indent: 40px;
+    line-height: 2;
+    word-spacing: 10px;
+    white-space: normal;
+    word-break: break-word;
+    text-overflow: ellipsis;
 }
