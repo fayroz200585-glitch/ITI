@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #4a3428;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #f8f3ed;
+    padding: 20px 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4a3428;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8b6f5a;
+    font-size: 16px;
+}
+
+.home {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f8f3ed;
+}
+
+.home h1 {
+    font-size: 55px;
+    color: #4a3428;
+}
+
+.home p {
+    font-size: 20px;
+    margin: 10px 0 25px;
+}
+
+.home a {
+    display: inline-block;
+    background-color: #8b6f5a;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin-bottom: 35px;
+}
+
+.home img {
+    width: 60%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+}
+
+.about {
+    text-align: center;
+    padding: 70px 30px;
+}
+
+.about h2,
+.shop h2,
+.contact h2 {
+    font-size: 32px;
+    color: #4a3428;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 600px;
+    margin: auto;
+    color: #8b6f5a;
+}
+
+.about img {
+    width: 400px;
+    max-width: 90%;
+    margin-top: 30px;
+}
+
+.shop {
+    text-align: center;
+    padding: 70px 30px;
+    background-color: #f8f3ed;
+}
+
+.product {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    background-color: white;
+    padding: 15px;
+}
+
+.product img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.product h3 {
+    margin-top: 15px;
+    color: #8b6f5a;
+}
+
+.contact {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.contact p {
+    color: #8b6f5a;
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a3428;
+    color: white;
+}
+@media (max-width: 768px) {
+
+    header {
+        padding: 15px 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .home {
+        padding: 40px 15px;
+    }
+
+    .home h1 {
+        font-size: 40px;
+    }
+
+    .home img {
+        width: 90%;
+    }
+
+    .about {
+        padding: 50px 20px;
+    }
+
+    .shop {
+        padding: 50px 15px;
+    }
+
+    .product {
+        width: 90%;
+        max-width: 300px;
+        margin: 15px auto;
+    }
+
+    .contact {
+        padding: 50px 20px;
+    }
+
+}

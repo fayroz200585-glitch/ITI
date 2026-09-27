@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.home {
+    height: 550px;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+nav {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.welcome {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.welcome h1 {
+    font-size: 50px;
+    margin: 15px 0;
+}
+
+.welcome p {
+    margin: 10px 0;
+}
+
+.welcome button {
+    padding: 12px 20px;
+    margin: 15px 5px;
+    border: none;
+    background-color: #8b6f47;
+    color: white;
+}
