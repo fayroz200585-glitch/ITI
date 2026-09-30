@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-image: url("../assets/images/fayroz.jpg");
+   background-repeat:no-repeat;
+   background-position:center;
+   background-size: cover ;
+    background-color: white;
+
+}
+
+form {
+    padding: 20px;
+    width:50%;
+    background-color: pink;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0  auto;
+}
+
+input {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    transition: all ease-in-out 100ms;
+}
