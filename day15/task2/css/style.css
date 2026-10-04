@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(255, 207, 214);
+}
+
+.input-container button {
+    color: white;
+    background-color: lightpink;
+    height: fit-content;
+}
